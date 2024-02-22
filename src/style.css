@@ -1,1 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+p {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+.p1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 200px;
+}

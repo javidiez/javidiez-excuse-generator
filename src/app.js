@@ -24,15 +24,7 @@ function excuse() {
   let what_random_result = what[what_random];
   let when_random = Math.floor(Math.random() * when.length);
   let when_random_result = when[when_random];
-  console.log(
-    who_random_result +
-      " " +
-      action_random_result +
-      " " +
-      what_random_result +
-      " " +
-      when_random_result
-  );
+
   return (
     who_random_result +
     " " +
@@ -43,7 +35,3 @@ function excuse() {
     when_random_result
   );
 }
-document.addEventListener("DOMContentLoaded", function() {
-  let resultadoExcuse = document.getElementById("resultadoExcuse");
-  resultadoExcuse.textContent = excuse();
-});

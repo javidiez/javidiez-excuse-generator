@@ -35,3 +35,5 @@ function excuse() {
     when_random_result
   );
 }
+const excusa = document.getElementById("resultadoExcuse");
+excusa.textContent = excuse();
